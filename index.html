@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>GeekPlace</title>
+</head>
+<body>
+    <div class="main-screen">
+        <header class="menu">
+            <nav class="options">
+                <div class="logo">GeekPlace</div>
+                <div class="list-options">
+                    <ul class="change-cursor">
+                        <li onclick="support()">Home</li>
+                        <li onclick="support()">Descrição</li>
+                        <li onclick="support()">Destaques</li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+        <section class="presentation">
+            <div class="left-side">
+            <div class="madeby">By Felipe Santos</div>
+            <div class="line"></div>
+            <div class="highlight">Os melhores eventos de Animes e cultura Geek você encontra aqui!</div>
+            <div class="info">
+                Aqui você ficará sempre atualizado sobre os maiores eventos do mundo Geek: Animes, mangás e muito mais!
+            </div>
+            <div class="buttons">
+                <button onclick="seevents()" class="events">Ver Eventos</button>
+                <button onclick="support()" class="registration">Cadastre-se</button>
+            </div>
+            </div>
+            <img class="jojos" src="./jojos.png" alt="">
+        </section>
+    <section class="the-project">
+        <div class="imge">
+            <img class="cosplay" src="anime.jpg" alt="">
+        </div>
+        <div class="text">
+            <div class="title">
+                Sobre os eventos no Brasil
+            </div>
+            <div class="about">A trajetória dos eventos de otakus no Brasil é um reflexo do crescimento e da paixão pela cultura japonesa no país. Desde os primeiros encontros modestos até os grandes eventos como o Anime Friends, a comunidade otaku mostrou sua força e dedicação. Hoje, esses eventos são mais do que simples reuniões; são celebrações da diversidade cultural e da criatividade. A evolução dos eventos de anime no Brasil demonstra como a cultura pop japonesa conquistou um espaço significativo no coração dos brasileiros, criando laços e memórias que perduram. Mesmo com todas as facilidades da era digital, a nostalgia dos tempos em que tudo era mais simples ainda permanece viva entre os fãs. </div>
+            <button onclick="seevents()" class="events">Ver Eventos</button>
+        </div>
+    </section>
+    <section class="atraction">
+        <div class="voice-actors">Eventos em Destaque</div>
+        <ul class="list-events">
+            <li>
+                <img src="https://m.media-amazon.com/images/I/81gu2lx3MmL._SL1500_.jpg" alt="">
+                <div class="name">TCG Yu-gi-oh!</div>
+                <div class="corp">Konami</div>
+            </li>
+            <li>
+                <img src="./esboco.jpg" alt="">
+                <div class="name">Aulas de desenho</div>
+                <div class="corp">GeekPlace</div>
+            </li>
+            <li>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_795127-MLB77901216661_072024-O.webp" alt="">
+                <div class="name">Stand Funko Pop</div>
+                <div class="corp">Pa Xiao</div>
+            </li>
+        </ul>
+    </section>
+<footer class="baseboard">
+    <div class="basebox">
+        <p class="copyright">Todos os direitos reservados <strong>Felipe Santos</strong> 2025</p>
+    </div>
+</footer>
+    </div>
+<div class="search hidden">
+    <div class="top-backg"></div>
+    <div class="search-box">
+        <div class="search-title">Encontre seu evento</div>
+    <div class="search-content">
+        <input class="inputplace" type="text" placeholder="Buscar...">
+        <button class="go" onclick="getevent()">Buscar</button>
+    </div>
+    </div>
+<main>
+    <ul class="location">
+    </ul>
+</main>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>

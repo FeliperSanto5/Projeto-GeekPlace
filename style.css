@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp5085421.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+}
+
+.menu{
+    background: linear-gradient( 90deg, rgba(193, 92, 25, 1) 1%, rgba(193, 84, 43, 1) 12%, rgba(193, 25, 175, 0.6026785714285714) 100%, rgba(193, 25, 175, 0.6026785714285714) 100% );
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu .options{
+        height: 100px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.7rem;
+        color: white;
+    }
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 1.5rem;
+}
+
+.change-cursor{
+    cursor: pointer;
+}
+
+.madeby{
+    font-size: 1.3rem;
+    margin-bottom: 9px;
+}
+
+.line{
+        background: linear-gradient( 90deg, rgba(193, 92, 25, 1) 1%, rgba(193, 84, 43, 1) 12%, rgba(193, 25, 175, 0.6026785714285714) 100%, rgba(193, 25, 175, 0.6026785714285714) 100% );
+        width: 30%;
+        height: 2px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+
+.highlight{
+    font-size: 2.4rem;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.presentation{
+        height: 100vh;
+        width: 90%;
+        margin-inline: auto;
+        margin-top: -80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        overflow: auto;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.jojos{
+    width: 50%;
+    object-fit: cover;
+    margin-top: 10%;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.events{
+    background: linear-gradient( 90deg, rgba(193, 92, 25, 1) 1%, rgba(193, 84, 43, 1) 12%, rgba(193, 25, 175, 0.6026785714285714) 100%, rgba(193, 25, 175, 0.6026785714285714) 100% );
+  color: white;
+  border: none;
+  width: 340px;
+  padding: 1.2rem;
+  font-weight: bold;
+}
+
+.registration{
+    width: 340px;
+  padding: 1.2rem;
+  background: none;
+  border: 1px solid blueviolet;
+  color: white;
+  font-weight: bold;
+}
+
+.the-project{
+    height: 100vh;
+  margin-top: 110px;
+  width: 90%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  overflow: auto;
+}
+
+.imge{
+    width: 50%;
+    position: relative;
+}
+
+.cosplay{
+  height: 525px;
+  object-fit: cover;
+  width: 100%;
+  z-index: 9;
+}
+
+.text{
+    width: 50%;
+}
+
+.title{
+    font-size: 2.4rem;
+  margin-bottom: 30px;
+}
+
+.about{
+    font-size: 1.4rem;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.atraction{
+    background-image: url("https://conectatech.netlify.app/img/banner-seciton.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+
+.voice-actors{
+    text-align: center;
+  padding: 1.6rem;
+  font-size: 2.4rem;
+}
+
+.list-events{
+    width: 90%;
+  margin-inline: auto;
+  justify-content: space-around;
+  display: flex;
+  gap: 32px;
+}
+
+img{
+    width: 340px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.name{
+    font-size: 1.7rem;
+}
+
+.corp{
+    margin-bottom: 10px;
+}
+
+.baseboard{
+    background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.basebox{
+    width: 80%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.top-backg{
+    background: linear-gradient( 90deg, rgba(193, 92, 25, 1) 1%, rgba(193, 84, 43, 1) 12%, rgba(193, 25, 175, 0.6026785714285714) 100%, rgba(193, 25, 175, 0.6026785714285714) 100% );
+  width: 100%;
+  height: 300px;
+}
+
+.search-box{
+    background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 70%;
+  margin-inline: auto;
+  height: 280px;
+  margin-top: -200px;
+  padding: 2rem;
+}
+
+.search-title{
+    font-size: 3.8rem;
+    text-align: center;
+}
+
+.search-content{
+    display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputplace{
+    width: 70%;
+  padding: 1rem;
+}
+
+.go{
+    width: 30%;
+  padding: 1rem;
+  background: linear-gradient( 90deg, rgba(193, 92, 25, 1) 1%, rgba(193, 84, 43, 1) 12%, rgba(193, 25, 175, 0.6026785714285714) 100%, rgba(193, 25, 175, 0.6026785714285714) 100% );
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.location{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-decoration: none;
+  color: inherit;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.location li{
+  width: 400px;
+  background: linear-gradient( 90deg, rgba(193, 92, 25, 1) 1%, rgba(193, 84, 43, 1) 12%, rgba(193, 25, 175, 0.6026785714285714) 100%, rgba(193, 25, 175, 0.6026785714285714) 100% );
+}
+
+.location li img{
+  width: 400px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.namevent{
+  font-size: 2rem;
+  margin-bottom: 18px;
+  padding: 0.5rem;
+}
